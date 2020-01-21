@@ -1,0 +1,2 @@
+class ArtworkGallery < ApplicationRecord
+end
