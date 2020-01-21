@@ -4,7 +4,7 @@ class CreateArtworks < ActiveRecord::Migration[6.0]
       t.string :image
       t.string :title
       t.string :artist_name
-      t.string :price
+      t.integer :price
 
       t.timestamps
     end
