@@ -4,14 +4,57 @@
     artwork = Artwork.create([
         {image: 'https://d32dm0rphc51dk.cloudfront.net/8w7iHO5Thliy9N2vQ6mKTw/large.jpg', title: 'MyMy', artist_name: 'Otto Piene', price: 36500}, 
         {image: 'https://i.pinimg.com/236x/2b/40/1b/2b401b960349c984a3e82f2e894f73d0--barbara-hepworth-.jpg', title: 'Rangatira I', artist_name: 'Barbara Hepworth', price: 7500},
-        {image: 'https://d32dm0rphc51dk.cloudfront.net/zZ4vo_sZXllioWwrCU8NfQ/large.jpg', title: 'Secret Thoughts', artist_name: ' Tony Cragg', price: 45000}
+        {image: 'https://d32dm0rphc51dk.cloudfront.net/zZ4vo_sZXllioWwrCU8NfQ/large.jpg', title: 'Secret Thoughts', artist_name: ' Tony Cragg', price: 45000},
+        {image: 'https://i.etsystatic.com/9089439/r/il/7892de/1301597805/il_fullxfull.1301597805_k31c.jpg', title: 'The Starry Night', artist_name: 'Vincent van Gogh', price: 80000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/600px-Meisje_met_de_parel.jpg', title: 'Girl with a Pearl Earring', artist_name: 'Johannes Vermeer', price: 30000000},
+        {image: 'https://cdn.getyourguide.com/img/tour_img-1206563-146.jpg', title: 'The Last Supper', artist_name: 'Leonardo da Vinci', price: 23000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Henri_Rousseau_010.jpg/300px-Henri_Rousseau_010.jpg', title: 'The Sleeping Gypsy', artist_name: 'Henri Rousseau', price: 5000000},
+        {image: 'https://news.artnet.com/app/news-upload/2020/01/Vincent-Van-Gogh_Self-portrait-1889-1890_Photo-The-National-Museum-of-Art%EF%BF%BD2c-Archirecture-and-Design-916x1024.jpg', title: 'Van Gogh self-portrait', artist_name: 'Vincent van Gogh', price: 70000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/350px-PicassoGuernica.jpg', title: 'Guernica', artist_name: 'Pablo Picasso', price: 100000000},
+        {image: 'https://cdn11.bigcommerce.com/s-e9xh4/images/stencil/1280x1280/products/11454/23961/The_Kiss_Klimt_Crystal_Deskpop_Paperweight__01654.1552415111.jpg?c=2?imbypass=on&imbypass=on', title: 'The Kiss', artist_name: 'Gustav Klimt', price: 135000000},
+        {image: 'https://dali.com/wp-content/uploads/2017/11/the-persistence-of-memory-1931-300x228.jpg', title: 'The Persistence of Memory', artist_name: 'Salvador Dalí', price: 20000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/700px-Tsunami_by_hokusai_19th_century.jpg', title: 'The Great Wave off Kanagawa', artist_name: 'Hokusai', price: 1500000},
+        {image: 'https://www.vangoghstudio.com//Files/6/102000/102147/ProductPhotos/Source/697727380.jpg', title: 'Café Terrace at Night', artist_name: 'Vincent van Gogh', price: 200000000},
+        {image: 'https://www.ancient.eu/img/r/p/500x600/272.jpg?v=1485680731', title: 'The School of Athens', artist_name: 'Raphael', price: 100000000},
+        {image: 'https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555427373/shape/mentalfloss/5hkj634h3jk6h.png', title: 'The Raft of the Medusa', artist_name: 'Théodore Géricault', price: 10000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/400px-Monet_-_Impression%2C_Sunrise.jpg', title: 'Impression, Sunrise', artist_name: 'Claude Monet', price: 12000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/The_Lady_with_an_Ermine.jpg/1200px-The_Lady_with_an_Ermine.jpg', title: 'Lady with an Ermine', artist_name: 'Leonardo da Vinci', price: 150000000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg/300px-Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg', title: 'The Storm on the Sea of Galilee', artist_name: 'Rembrandt', price: 100000000},
+        {image: 'https://www.vangoghgallery.com/painting/img/potato_full.jpg', title: 'The Potato Eaters', artist_name: 'Vincent van Gogh', price: 54000000},
+        {image: 'https://www.caravaggio.org/images/paintings/supper-at-emmaus-1602.jpg', title: 'Supper at Emmaus', artist_name: 'Caravaggio', price: 320000000},
+        {image: 'https://images-na.ssl-images-amazon.com/images/I/61Rg1wDKj2L._AC_SY679_.jpg', title: 'Wanderer above the Sea of Fog', artist_name: 'Caspar David Friedrich', price: 5000000},
+        {image: 'https://collectionapi.metmuseum.org/api/collection/v1/iiif/11417/42494/main-image', title: 'Washington Crossing the Delaware', artist_name: 'Emanuel Leutze', price: 500000},
+        {image: 'https://i0.wp.com/www.guggenheim.org/wp-content/uploads/1923/01/37.262_ph_web-1.jpg?w=870&zoom=2', title: 'Composition 8', artist_name: 'Wassily Kandinsky', price: 20000000},
+        {image: 'https://gohighbrow.com/wp-content/uploads/2015/05/10-No.-5.jpg', title: 'No. 5, 1948', artist_name: 'Jackson Pollock', price: 140000000},
+        {image: 'https://cdn.kastatic.org/googleusercontent/PBuG4Hq8cjs5EEwocnnyfPyo4uoJwQ_5x5dysLFD0qSd0DwiVo59ZNWuqKesCfv-WfZ6EehkEJUmXxLqPK7mjfY', title: 'The Hunters in the Snow', artist_name: 'Pieter Bruegel the Elder', price: 3500000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Vincent_Willem_van_Gogh_076.jpg', title: 'The Night Café', artist_name: 'Vincent van Gogh', price: 200000000},
+        {image: 'https://netstorage-tuko.akamaized.net/images/0fgjhs6392ec85hoc.jpg?imwidth=900', title: 'Retopistics: A Renegade Excavation', artist_name: 'Julie Mehretu', price: 4000000},
+        {image: 'https://www.worldatlas.com/r/w728/upload/5c/4a/1e/800px-mona-lisa-by-leonardo-da-vinci-from-c2rmf-retouched.jpg', title: 'Mona Lisa', artist_name: 'Leonardo da Vinci', price: 620000000},
+        {image: 'https://www.worldatlas.com/r/w728/upload/5f/96/29/edvard-munch-1893-the-scream-oil-tempera-and-pastel-on-cardboard-91-x-73-cm-national-gallery-of-norway.jpg', title: 'The Scream', artist_name: 'Edvard Munch', price: 120000000},
+        {image: 'https://www.worldatlas.com/r/w728/upload/d3/75/8b/1599px-sandro-botticelli-la-nascita-di-venere-google-art-project-edited.jpg', title: 'The Birth Of Venus', artist_name: 'Sandro Botticelli', price: 15000000},
+        {image: 'https://www.worldatlas.com/r/w728/upload/45/77/b8/shutterstock-377749780.jpg', title: 'The Night Watch', artist_name: 'Rembrandt', price: 900000},
+        {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Osman_Hamdi_Bey_-_The_Tortoise_Trainer_-_Google_Art_Project.jpg/400px-Osman_Hamdi_Bey_-_The_Tortoise_Trainer_-_Google_Art_Project.jpg', title: 'The Tortoise Trainer', artist_name: 'Osman Hamdi Bey', price: 3500000},
+        {image: 'https://news.artnet.com/app/news-upload/2017/09/La_Dentelli%C3%A8re_Johannes_Vermeer_1669-1670.jpg', title: 'The Lacemaker', artist_name: 'Johannes Vermeer', price: 2700000},
+        {image: 'https://s3-us-west-2.amazonaws.com/media-tentree-com/wp-content/uploads/2015/03/1-Van-Gogh-Irises.jpg', title: 'Irises', artist_name: 'Vincent van Gogh', price: 54000000},
+        {image: 'https://s3-us-west-2.amazonaws.com/media-tentree-com/wp-content/uploads/2015/03/2-tiger.jpg', title: 'Tiger in a Tropical Storm (Surprised!)', artist_name: 'Henri Rousseau', price: 5000000},
+        {image: 'https://s3-us-west-2.amazonaws.com/media-tentree-com/wp-content/uploads/2015/03/3-cezanne-1024x682.jpg', title: 'Mont Sainte-Victoire', artist_name: 'Paul Cezanne', price: 60000000},
+        {image: 'https://s3-us-west-2.amazonaws.com/media-tentree-com/wp-content/uploads/2015/03/4-water-lillies.jpg', title: 'Water Lilies', artist_name: 'Claude Monet', price: 43000000},
+        {image: 'https://www.fridakahlo.org/images/paintings/self-portrait-with-necklace-of-thorns.jpg', title: 'Self-Portrait with Thorn Necklace and Hummingbird', artist_name: 'Frida Kahlo', price: 37000000},
+        {image: 'https://contemporaryartsem.files.wordpress.com/2008/12/dispersion_med.jpg?w=620&h=393', title: 'Dispersion', artist_name: 'Julie Mehretu', price: 850000},
+        {image: 'https://d5wt70d4gnm1t.cloudfront.net/media/a-s/articles/1693-507164524847/phaidon-twenty-first-century-painting-masterpieces-list-900x450.png', title: 'The Tree', artist_name: 'Ibrahim El-Salahi', price: 750000},
+        {image: 'https://d5wt70d4gnm1t.cloudfront.net/media/a-s/articles/1693-507189762933/phaidon-twenty-first-century-painting-masterpieces-list-900x450.png', title: 'The Blindfolded Man', artist_name: 'Marlene Dumas', price: 850000}
         ])
 
     gallery = Gallery.create([
         {name: 'Gagosian', image: 'https://media.timeout.com/images/100750427/1372/1029/image.jpg'},
         {name: 'Fergus McCaffrey', image: 'https://media.timeout.com/images/105362818/1372/1029/image.jpg'},
         {name: 'David Zwirner Gallery', image: 'https://media.timeout.com/images/103941872/1372/1029/image.jpg'},
-        {name: 'Pace Gallery', image: 'https://media.timeout.com/images/103941899/1372/1029/image.jpg'}
+        {name: 'Pace Gallery', image: 'https://media.timeout.com/images/103941899/1372/1029/image.jpg'},
+        {name: 'The Henry Art Gallery', image: 'https://img.grouponcdn.com/deal/wv2FmA5hkPtgdPfnP6i7uq3nLWN/wv-1000x600/v1/c700x420.jpg'},
+        {name: 'The Andy Warhol Museum', image: 'https://www.warhol.org/wp-content/uploads/2017/02/KAUFMAN1704016_0620-1000x659.jpg'},
+        {name: 'Gallery Aferro', image: 'https://aferrotestblog.files.wordpress.com/2013/11/aferro-interior-low-res.jpg?w=940'},
+        {name: 'Walker Art Center', image: 'https://www.mnopedia.org/sites/default/files/styles/multimedia/public/installation_colorful.jpg?itok=p1KvFJVy'},
+        {name: 'The Scarab Club', image: 'https://media2.fdncms.com/metrotimes/imager/u/original/19155631/wgo_scarab.jpg'}
     ])
 
 
