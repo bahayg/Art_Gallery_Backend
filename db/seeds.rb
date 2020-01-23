@@ -54,6 +54,28 @@
         {name: 'The Scarab Club', image: 'https://media2.fdncms.com/metrotimes/imager/u/original/19155631/wgo_scarab.jpg'}
     ])
 
+    artwork_galleries = ArtworkGallery.create([
+        {artwork_id: 1, gallery_id: 1},   
+        {artwork_id: 2, gallery_id: 1},
+        {artwork_id: 3, gallery_id: 1},
+        {artwork_id: 4, gallery_id: 2},
+        {artwork_id: 5, gallery_id: 3},
+        {artwork_id: 6, gallery_id: 9},
+        {artwork_id: 7, gallery_id: 5},
+        {artwork_id: 8, gallery_id: 5},
+        {artwork_id: 9, gallery_id: 7},
+        {artwork_id: 10, gallery_id: 7},
+        {artwork_id: 11, gallery_id: 4},
+        {artwork_id: 12, gallery_id: 4},
+        {artwork_id: 13, gallery_id: 6},
+        {artwork_id: 14, gallery_id: 4},
+        {artwork_id: 15, gallery_id: 5},
+        {artwork_id: 16, gallery_id: 7},
+        {artwork_id: 17, gallery_id: 3},
+        {artwork_id: 18, gallery_id: 2},
+        {artwork_id: 19, gallery_id: 4},
+        {artwork_id: 20, gallery_id: 4}
+    ])
 
 #     # testing Artsy API
 
