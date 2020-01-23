@@ -1,6 +1,3 @@
-
-
-
     artwork = Artwork.create([
         {image: 'https://d32dm0rphc51dk.cloudfront.net/8w7iHO5Thliy9N2vQ6mKTw/large.jpg', title: 'MyMy', artist_name: 'Otto Piene', price: 36500}, 
         {image: 'https://i.pinimg.com/236x/2b/40/1b/2b401b960349c984a3e82f2e894f73d0--barbara-hepworth-.jpg', title: 'Rangatira I', artist_name: 'Barbara Hepworth', price: 7500},
