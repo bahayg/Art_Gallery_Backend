@@ -5,7 +5,7 @@ class ArtworksController < ApplicationController
     end
 
     def show
-        artwork = Artwork.find_by(id: params[:id])
+        artwork = Artwork.where(artwork_id: params[:id])
         render json: artwork
     end
 
@@ -19,13 +19,13 @@ class ArtworksController < ApplicationController
     end
 
     def update
-        artwork = Artwork.find_by(id: params[:id])
+        artwork = Artwork.find(params[:id])
         artwork.update(params.require(:artwork).permit(:image, :title, :artist_name, :price))
         render json: artwork
     end
 
     def destroy
-        artwork = Artwork.find_by(id: params[:id])
+        artwork = Artwork.find(params[:id])
         artwork.destroy
         render json: {message: 'Artwork has been removed!'}
     end

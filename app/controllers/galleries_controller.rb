@@ -6,7 +6,7 @@ class GalleriesController < ApplicationController
     end
 
     def show
-        gallery = Gallery.find_by(id: params[:id])
+        gallery = Gallery.find_by(name: params[:id])
         render :json => gallery
     end
 
@@ -20,13 +20,13 @@ class GalleriesController < ApplicationController
     end
 
     def update
-        gallery = Gallery.find_by(id: params[:id])
+        gallery = Gallery.find_by(name: params[:id])
         gallery.update(params.require(:gallery).permit(:name, :image))
         render :json => gallery
     end
 
     def destroy
-        gallery = Gallery.find_by(id: params[:id])
+        gallery = Gallery.find_by(params[:id])
         gallery.destroy
         render :json => {message: 'Gallery has been removed!'}
     end
